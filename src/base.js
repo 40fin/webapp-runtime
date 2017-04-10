@@ -1,0 +1,13 @@
+export default {
+///////////////////////////////////////////////////////////////////////////////
+    name : 'app-base-vue',
+    methods: {
+        $go: function(path) {
+            _crm._router.go(path);
+        },
+        $jump: function(path) {
+            window.location.href = path;
+        },
+    },
+///////////////////////////////////////////////////////////////////////////////
+};
